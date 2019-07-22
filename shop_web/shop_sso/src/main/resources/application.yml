@@ -1,0 +1,22 @@
+
+server:
+  port: 8084
+
+dubbo:
+  application:
+    name: sso_web
+  registry:
+    address: zookeeper://120.25.244.38:2181
+  consumer:
+    check: false
+    timeout: 10000
+  protocol:
+    port: -1
+    name: dubbo
+spring:
+  rabbitmq:
+    host: 120.25.244.38
+    virtual-host: /
+  redis:
+    host: 120.25.244.38
+    password: root

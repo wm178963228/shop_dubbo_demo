@@ -1,0 +1,10 @@
+
+spring:
+  rabbitmq:
+    host: 120.25.244.38
+    virtual-host: /
+  mail:
+  #配置发送方邮箱的地址和smtp
+    host: smtp.sina.cn
+    username:
+    password: wm654535085

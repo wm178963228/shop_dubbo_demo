@@ -1,0 +1,15 @@
+
+server:
+  port: 8083
+dubbo:
+  application:
+    name: item_service
+  registry:
+    address: zookeeper://120.25.244.38:2181
+  consumer:
+    check: false
+    timeout: 10000
+spring:
+  rabbitmq:
+    host: 120.25.244.38
+    virtual-host: /

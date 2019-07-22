@@ -1,0 +1,16 @@
+
+dubbo:
+  registry:
+    address: zookeeper://120.25.244.38:2181
+  protocol:
+    name: dubbo
+    port: -1
+  application:
+    name: search_service
+spring:
+  data:
+    solr:
+      host: http://120.25.244.38:8983/solr/mycollection
+  rabbitmq:
+    host: 120.25.244.38
+    virtual-host: /
